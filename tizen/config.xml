@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/lein-tizen" version="1.0.0" viewmodes="maximized">
+    <access origin="*"/>
+    <tizen:application id="MRaYAsPdtB.leintizen" package="MRaYAsPdtB" required_version="4.0"/>
+    <tizen:content src="http://10.0.2.2:3449/"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>lein-tizen</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:profile name="wearable"/>
+</widget>
